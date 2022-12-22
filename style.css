@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+.navbar {
+  padding: 2rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+}
+
+.navbar-brand {
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #000;
+  font-weight: lighter;
+  font-size: 1.1rem;
+}
+
+.nav a:first-child {
+  border-bottom: 1px solid #000;
+}
+
+.contact-us.btn {
+  padding: 1rem 2rem;
+}
+
+.nav * {
+  margin-left: 2rem;
+}
+
+.intro {
+  font-family: "Playfair Display", serif;
+  font-size: 3rem;
+  padding: 2rem 25rem;
+}
+
+main {
+  margin: 12rem 3rem 0;
+}
+
+section {
+  margin: 5rem 0;
+}
+
+.context-1 h6 {
+  font-weight: 400;
+}
+
+.img {
+  padding: 2rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  height: 900px;
+}
+
+.img-1 {
+  background-image: url("img/1.jpeg");
+}
+
+.img-2 {
+  background-image: url("img/2.jpeg");
+}
+
+.img-3 {
+  background-image: url("img/3.jpeg");
+}
+
+.subtitle {
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+}
+
+.content {
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+
+.btn-project {
+  padding: 1rem 1.5rem;
+}
+
+footer {
+  padding: 2.5rem;
+  background-color: rgb(236, 236, 236);
+}
+
+footer h4 {
+  font-family: "Playfair Display", serif;
+  margin-bottom: 2rem;
+}
+
+footer .col-3 a {
+  color: #000;
+  font-size: 1.1rem;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+
+footer .col-6 span {
+  font-weight: 350;
+  font-size: 1rem;
+}
