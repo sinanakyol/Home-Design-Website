@@ -15,11 +15,13 @@ body {
   top: 0;
   width: 100%;
   background-color: #fff;
+  z-index: 1;
 }
 
 .navbar-brand {
   font-family: "Playfair Display", serif;
   font-size: 2rem;
+  border-bottom: 3px solid #333;
 }
 
 .nav a {
@@ -27,9 +29,14 @@ body {
   color: #000;
   font-weight: lighter;
   font-size: 1.1rem;
+  border-bottom: 1px solid transparent;
 }
 
-.nav a:first-child {
+/* .nav a:first-child {
+  border-bottom: 1px solid #000;
+} */
+
+.nav a:hover {
   border-bottom: 1px solid #000;
 }
 
@@ -44,7 +51,7 @@ body {
 .intro {
   font-family: "Playfair Display", serif;
   font-size: 3rem;
-  padding: 2rem 25rem;
+  padding: 2rem 0;
 }
 
 main {
@@ -57,6 +64,7 @@ section {
 
 .context-1 h6 {
   font-weight: 400;
+  font-size: 1.1rem;
 }
 
 .img {
@@ -69,13 +77,16 @@ section {
 
 .img-1 {
   background-image: url("img/1.jpeg");
+  background-size: cover;
 }
 
 .img-2 {
+  background-size: cover;
   background-image: url("img/2.jpeg");
 }
 
 .img-3 {
+  background-size: cover;
   background-image: url("img/3.jpeg");
 }
 
@@ -113,4 +124,35 @@ footer .col-3 a {
 footer .col-6 span {
   font-weight: 350;
   font-size: 1rem;
+}
+
+.main-content h1 {
+  font-family: Playfair Display, serif;
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+
+.main-content h4 {
+  margin-bottom: 3rem;
+  font-family: Playfair Display, serif;
+}
+
+.main-content p {
+  margin-bottom: 5rem;
+  line-height: 2;
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+
+.img-about {
+  background-size: cover;
+  background-image: url("img/about.jpeg");
+}
+
+.main-projects {
+  margin-bottom: 3rem;
+}
+
+.main-projects img {
+  object-fit: cover;
 }
