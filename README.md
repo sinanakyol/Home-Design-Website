@@ -1,5 +1,5 @@
 # Home Design Website
-*(an attractive and effective website)*
+*Responsive Design Website*
 
 Project Link: https://sinanakyol.github.io/Home-Design-Website/
 
