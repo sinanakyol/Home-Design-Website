@@ -48,6 +48,28 @@ body {
   margin-left: 2rem;
 }
 
+.navbar #bar {
+  border: none;
+  font-size: 2rem;
+  color: rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+}
+
+@media screen and (max-width: 992px) {
+  .show-bar * {
+    display: none;
+  }
+  .nav {
+    display: none;
+  }
+  .nav * {
+    margin-left: 0;
+  }
+  .nav button.contact-us {
+    margin-top: 1rem;
+  }
+}
+
 .intro {
   font-family: "Playfair Display", serif;
   font-size: 3rem;
